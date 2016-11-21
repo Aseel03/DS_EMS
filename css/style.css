@@ -1,0 +1,111 @@
+
+
+body{
+font-size: 13px;
+background: #D4D4D4 ;
+ 
+  background-image: url("logo1.png");
+ background-size: 600px 400px;
+ background-repeat: no-repeat;
+    background-position: 25% 40% ;
+     background-attachment: fixed;
+
+}
+
+.back-border{
+   background-color:#D4D4D4; 
+   border: 110px;
+
+}
+.border-icon {
+
+    border:  ridge #949494;
+
+}
+/*a:hover,a:active{
+color:#FFF;
+text-decoration: none;}
+*/
+.colomun-coolor {
+     color: rgba(100%, 50%, 0%, 0.1);
+
+    background-color: hsla(240, 100%, 50%, 0.7);
+}
+.panel{
+
+   max-width:auto;
+    max-height:500px;
+
+}
+.warp {margin-left: 150px; 
+
+}
+.navbar,.navbar-default{
+
+background-color: #6ea4a3; /* color of header */ 
+border-radius: 0px;
+color:#fff;
+
+}
+
+.navbar-default .navbar-nav > li >a{
+    color:#FFF;
+    }
+.navbar-default .navbar-nav > li >a:hover{
+    color:#EE6759; /* color of header mouse when put in link */ 
+    }
+.navbar,.navbar-default .navbar-toggle .icon-bar {
+border-color: #6ea4a3; /* color of border in header */ 
+}
+
+.dropdown-menu {
+background-color: #3B3B3B;
+border-radius: 0px;
+}
+
+.well{
+    background-color:#3B3B3B;
+}
+
+.navbar-default .navbar-nav > li > a,.dropdown-menu > li > a {
+	-moz-transition: all 0.5s ease 0s;
+    -webkit-transition:all 0.5s ease 0s;
+     color: rgba(242, 242, 242, 1);
+     }
+
+
+.register-form{
+    margin: 30px 0px 50px 0px;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+ 
+.element:before {
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
+
+
+
+
+.footer{
+background-color: #6ea4a3;
+border-radius: 0px;
+color:#fff;
+ position: fixed ;
+ bottom: 0px;
+
+ }
